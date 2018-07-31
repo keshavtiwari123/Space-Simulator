@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<style>
+			#section{
+				width: 90%;
+				height: 600px;
+				color: white;
+				text-align: center;
+				position: absolute:
+				margin-top: 60%;
+			}
+			
+				
+		</style>
+		<link rel='stylesheet' href='star.css' type='text/css'></link>
+	</head>
+	<body>
+		<div id='height'></div>
+		<div id='section'></div>
+		<div id='height'></div>
+		<script type='text/javascript' src='../jquery.js'></script>
+		<script type='text/javascript' src='space_simulator.js'></script>
+		<script type='text/javascript'>
+			$(document).ready(function(){
+				$('#section').space_simulator(6, 5);
+			});
+		</script>
+	</body>
+</html>
